@@ -1,0 +1,340 @@
+What is Rest Assured mainly used for?
+
+A. UI automation
+B. API automation
+C. Performance testing
+D. Database testing
+
+
+Which language is Rest Assured built on?
+
+A. Python
+B. Java
+C. JavaScript
+D. C#
+
+
+Which keyword is used to write BDD scenarios?
+
+A. Test
+B. Scenario
+C. Case
+D. Script
+
+
+Which tool is commonly used with Rest Assured for BDD?
+
+A. TestNG
+B. JUnit
+C. Cucumber
+D. Selenium
+
+Which method is used to start a Rest Assured BDD request?
+
+A. start()
+B. request()
+C. given()
+D. send()
+
+Which keyword is used to validate response status code?
+
+A. assertThat()
+B. then()
+C. validate()
+D. check()
+
+How do you validate HTTP status code 200?
+
+A. status(200)
+B. statusCode(200)
+C. responseCode(200)
+D. checkCode(200)
+
+
+Which HTTP method is used to create a resource?
+
+A. GET
+B. PUT
+C. POST
+D. DELETE
+
+
+Which HTTP method updates an existing resource?
+
+A. POST
+B. GET
+C. PUT
+D. DELETE
+
+Which HTTP method removes a resource?
+
+A. POST
+B. PUT
+C. DELETE
+D. GET
+
+Which class is used to read JSON response?
+
+A. JsonParser
+B. JSONObject
+C. JsonPath
+D. JsonReader
+
+
+Where are feature files stored?
+
+A. src/main/java
+B. src/test/java
+C. src/test/resources
+D. target folder
+
+
+Which annotation links feature file to step definition?
+
+A. @RunWith
+B. @CucumberOptions
+C. @Test
+D. @Before
+
+
+How do you pass multiple test data in Cucumber?
+
+A. Feature file
+B. Scenario Outline
+C. Examples table
+D. Both B and C
+
+Which tool generates readable BDD reports?
+
+A. Jenkins
+B. Maven
+C. Cucumber
+D. Git
+
+What is the purpose of Jenkins in API automation?
+
+A. Write test cases
+B. Execute tests manually
+C. CI/CD automation
+D. Debug API
+
+Which command runs tests in Jenkins?
+
+A. java test
+B. mvn clean test
+C. mvn install java
+D. cucumber run
+
+Where do step definitions go?
+
+A. Feature file
+B. Runner class
+C. Java package
+D. pom.xml
+
+Which dependency is required for Rest Assured?
+
+A. selenium-java
+B. rest-assured
+C. junit
+D. cucumber-core
+
+
+What is the main advantage of BDD?
+
+A. Faster execution
+B. Less code
+C. Better readability
+D. No framework needed
+
+
+What does HTTP 200 mean?
+
+A. Resource created
+B. Request accepted
+C. Request successful
+D. No content
+
+Which status code indicates resource created successfully?
+
+A. 200
+B. 201
+C. 204
+D. 202
+
+Which status code is commonly returned for a DELETE API?
+
+A. 200
+B. 201
+C. 204
+D. 400
+
+What does HTTP 400 Bad Request mean?
+
+A. Server down
+B. Invalid request payload
+C. Authentication failed
+D. Resource not found
+
+Which status code means authentication is required?
+
+A. 403
+B. 404
+C. 401
+D. 500
+
+Difference between 401 and 403?
+
+A. Both are same
+B. 401 – permission, 403 – auth
+C. 401 – auth, 403 – permission
+D. Both are server errors
+
+What does 404 Not Found mean?
+
+A. Server error
+B. Resource does not exist
+C. Unauthorized access
+D. Invalid payload
+
+Which status code means method not allowed?
+
+A. 404
+B. 400
+C. 405
+D. 403
+
+Which status code indicates duplicate record / conflict?
+
+A. 409
+B. 400
+C. 422
+D. 500
+
+What does 415 Unsupported Media Type indicate?
+
+A. Wrong URL
+B. Wrong HTTP method
+C. Wrong Content-Type
+D. Server crash
+
+What does 422 Unprocessable Entity mean?
+
+A. Server error
+B. Validation failed
+C. Unauthorized
+D. Resource not found
+
+
+Which status code is a server error?
+
+A. 400
+B. 404
+C. 500
+D. 401
+
+Which status code means service temporarily unavailable?
+
+A. 500
+B. 501
+C. 502
+D. 503
+
+Status code range 4xx represents?
+
+A. Success
+B. Redirection
+C. Client error
+D. Server error
+
+Status code range 5xx represents?
+
+A. Client error
+B. Server error
+C. Redirection
+D. Informational
+
+Which status code is returned when API request is accepted but processing is not completed?
+
+A. 200
+B. 201
+C. 202
+D. 204
+
+What status code is expected for successful GET API?
+
+A. 201
+B. 204
+C. 200
+D. 202
+
+
+Which status code is used for redirection?
+
+A. 301
+B. 400
+C. 401
+D. 500
+
+How do you validate status code in Rest Assured?
+
+A. checkStatus(200)
+B. verify(200)
+C. statusCode(200)
+D. assertStatus(200)
+
+Which status code indicates timeout?
+
+A. 500
+B. 504
+C. 408
+D. Both B and C
+
+| Status Code | Meaning             |
+| ----------- | ------------------- |
+| **100**     | Continue            |
+| **101**     | Switching Protocols |
+
+| Status Code | Meaning                                |
+| ----------- | -------------------------------------- |
+| **200**     | OK – Request successful                |
+| **201**     | Created – Resource created             |
+| **202**     | Accepted – Request accepted            |
+| **204**     | No Content – Success, no response body |
+
+| Status Code | Meaning                    |
+| ----------- | -------------------------- |
+| **301**     | Moved Permanently          |
+| **302**     | Found (Temporary Redirect) |
+| **304**     | Not Modified               |
+
+
+| Status Code | Meaning                                  |
+| ----------- | ---------------------------------------- |
+| **400**     | Bad Request – Invalid request            |
+| **401**     | Unauthorized – Authentication required   |
+| **403**     | Forbidden – No permission                |
+| **404**     | Not Found – Resource not available       |
+| **405**     | Method Not Allowed                       |
+| **408**     | Request Timeout                          |
+| **409**     | Conflict – Duplicate or conflict         |
+| **415**     | Unsupported Media Type                   |
+| **422**     | Unprocessable Entity – Validation failed |
+| **429**     | Too Many Requests                        |
+
+| Status Code | Meaning               |
+| ----------- | --------------------- |
+| **500**     | Internal Server Error |
+| **502**     | Bad Gateway           |
+| **503**     | Service Unavailable   |
+| **504**     | Gateway Timeout       |
+
+| Status Code   | Used In         |
+| ------------- | --------------- |
+| **200**       | GET             |
+| **201**       | POST            |
+| **204**       | DELETE          |
+| **400**       | Invalid request |
+| **401 / 403** | Auth issues     |
+| **404**       | Wrong URL       |
+| **500**       | Server issue    |
